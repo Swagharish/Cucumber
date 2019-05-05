@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.amazon.testrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 2, Skipped: 7, Time elapsed: 91.289 sec <<< FAILURE!
+And User click on sign in button on ajax call(Scenario: User login the applciation and verify user name in the header)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.RuntimeException
+	at com.amazon.baseclass.BaseClass.elementClick(BaseClass.java:178)
+	at com.amazon.stepdefinition.StepDefinition.user_click_on_sign_in_button_on_ajax_call(StepDefinition.java:52)
+	at ?.And User click on sign in button on ajax call(AmazonLogin.feature:10)
+
+Scenario: User login the applciation and verify user name in the header  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.RuntimeException
+	at com.amazon.baseclass.BaseClass.elementClick(BaseClass.java:178)
+	at com.amazon.stepdefinition.StepDefinition.user_click_on_sign_in_button_on_ajax_call(StepDefinition.java:52)
+	at ?.And User click on sign in button on ajax call(AmazonLogin.feature:10)
+

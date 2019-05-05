@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="79.370086">
+<testcase classname="End to End test cases for Amazon application" name="User login the applciation and verify user name in the header" time="79.370086">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at com.amazon.baseclass.BaseClass.elementClick(BaseClass.java:178)&#13;&#10;&#9;at com.amazon.stepdefinition.StepDefinition.user_click_on_sign_in_button_on_ajax_call(StepDefinition.java:52)&#13;&#10;&#9;at ✽.And User click on sign in button on ajax call(AmazonLogin.feature:10)&#13;&#10;"><![CDATA[Given User launch the applciation...........................................passed
+And User wait for '3' seconds...............................................passed
+When User moushover to the Hello sign in....................................passed
+And User wait for '3' seconds...............................................passed
+And User click on sign in button on ajax call...............................failed
+And User enter the username '8122447745' in the emailid/mobile number.......skipped
+And User click on continue button...........................................skipped
+Then User verify the entered mobile number '+918122447745' displays on the mobile number feild.skipped
+When User enter the password '8148181640' in the password feild.............skipped
+And User click on login button..............................................skipped
+And User wait for '5' seconds...............................................skipped
+Then User verify the username 'Hello, harish' in the header page............skipped
+
+StackTrace:
+java.lang.RuntimeException
+	at com.amazon.baseclass.BaseClass.elementClick(BaseClass.java:178)
+	at com.amazon.stepdefinition.StepDefinition.user_click_on_sign_in_button_on_ajax_call(StepDefinition.java:52)
+	at ✽.And User click on sign in button on ajax call(AmazonLogin.feature:10)
+]]></failure>
+</testcase>
+</testsuite>

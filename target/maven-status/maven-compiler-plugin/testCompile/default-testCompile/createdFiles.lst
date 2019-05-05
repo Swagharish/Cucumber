@@ -1,0 +1,3 @@
+com\amazon\stepdefinition\Hooks.class
+com\amazon\testrunner\TestRunner.class
+com\amazon\stepdefinition\StepDefinition.class

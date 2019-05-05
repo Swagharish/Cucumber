@@ -1,0 +1,6 @@
+com\amazon\helper\FileReaderManager.class
+com\amazon\pom\LoginPage.class
+com\amazon\helper\ConfigReader.class
+com\amazon\baseclass\BaseClass.class
+com\amazon\helper\PageObjectManager.class
+com\amazon\pom\HomePage.class
